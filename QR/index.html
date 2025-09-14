@@ -1,1 +1,23 @@
-
+<html>
+    <head>
+        <title>QR CODE</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body><center>
+        <div class="container">
+            <form>
+                <h1>QR CODE GENERATOR</h1>
+                
+                <input type="text" id="data" placeholder="Enter Data">
+                <br><br>
+                <button type="button" onclick="qrgenerate()">Generate Qr</button>
+                <img id="qr" alt="Your Qr Code"/>
+                <br>
+                <a id="do" download="qr-code.png">Download Qr Code</a>
+                <h2>BY PRINCE RATHOR</h2>
+            </form>
+        </div>
+        </center>
+        <script src="script.js"></script>
+    </body>
+</html>
